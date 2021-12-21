@@ -1,4 +1,4 @@
-# Working on Expenses
+# Expense App
 
 ## Running the Flask server
 - make sure mongodb compass is installed: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
@@ -7,7 +7,6 @@
 - (if first time working) run `pip3 install Flask && pip install flask_mongoengine`
 - type `python main.py` in the console
 - visit `http://localhost:5000` in your web browser
-- try not to break anything!
 
 ## About HTML pages
 - to reduce reused code, all our html pages will "extend" the base html page `templates/layout.html`
